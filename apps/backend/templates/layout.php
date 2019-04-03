@@ -70,7 +70,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="<?php echo url_for("homepage"); ?>">eBot-CSGO</a>
+                    <a class="brand" href="<?php echo url_for("homepage"); ?>">LANudlejning - eBot</a>
                     <div class="nav-collapse collapse">
                         <div style="line-height: 35px; float: right;  margin-right: 10px;">
                             <form style="display:inline; margin-left: 5px; cursor: pointer" action="<?php echo url_for('@switch_lang?langage=fr') ?>" method="POST" id="langFr"><input type="hidden" name="referer" value="<?php echo $sf_request->getPathInfo() ?>" /><?php echo image_tag('/images/fr.png', array("onclick" => "javascript:submitForm('langFr')")); ?></form>

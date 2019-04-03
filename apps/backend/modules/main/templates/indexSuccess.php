@@ -1,5 +1,5 @@
 <div class="well">
-    <h1><?php echo __("eBot-CSGO"); ?></h1>
+    <h1><?php echo __("eBot-CSGOx"); ?></h1>
     <p><?php echo __("Welcome to CSGO eBot administration panel, you can manage your matches and also consult various statistics."); ?></p>
     <p><?php echo __("You can start using the panel via the menus on your left."); ?></p>
 </div>
