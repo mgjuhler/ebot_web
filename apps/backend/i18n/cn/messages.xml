@@ -61,8 +61,8 @@
         <target>你无权访问该网站</target>
       </trans-unit>
       <trans-unit id="15">
-        <source>eBot-CSGO</source>
-        <target>eBot-CSGO</target>
+        <source>eBot-CSGO_source</source>
+        <target>eBot-CSGO_target</target>
       </trans-unit>
       <trans-unit id="16">
         <source>Welcome to CSGO eBot administration panel, you can manage your matches and also consult various statistics.</source>

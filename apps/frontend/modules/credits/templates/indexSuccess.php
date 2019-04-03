@@ -21,7 +21,7 @@
     h4 { margin-top: 20px; }
 </style>
 
-<h1>eBot-CSGO</h1>
+<h1>eBot-CSGO_1</h1>
 <blockquote>
     <p class="lead">The eBot is a full managed server-bot written in PHP and nodeJS.<br>eBot features easy match creation and tons of player and matchstats. Once it's setup, using the eBot is simple and fast.</p>
 </blockquote>
