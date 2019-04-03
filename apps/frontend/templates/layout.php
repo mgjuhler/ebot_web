@@ -70,7 +70,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="<?php echo url_for("homepage"); ?>">LANudlejning 1234 - eBot</a>
+                    <a class="brand" href="<?php echo url_for("homepage"); ?>">LANudlejning - eBot</a>
                     <div class="nav-collapse collapse">
                         <?php if ($sf_user->isAuthenticated()): ?>
                             <p class="navbar-text pull-right">
