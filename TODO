@@ -15,3 +15,5 @@ TODO V3.1
 - stats.esport-tools.net (platform for all tournaments who use the eBot, to collect all datas and keep it for a long time !)
 - Delay the purchase event and record the data after the round start (all bought stuff is directly inserted after the round start)
 - GUI for Linux/Windows (C++/Qt or Java/NetBeans RCP)
+
+test :D
