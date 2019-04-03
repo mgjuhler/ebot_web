@@ -70,24 +70,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="<?php echo url_for("homepage"); ?>">eBot-CSGO_11</a>
+                    <a class="brand" href="<?php echo url_for("homepage"); ?>">LANudlejning - eBot</a>
                     <div class="nav-collapse collapse">
-                        <div style="line-height: 35px; float: right;  margin-right: 10px;">
-                            <form style="display:inline; margin-left: 5px; cursor: pointer" action="<?php echo url_for('@switch_lang?langage=fr') ?>" method="POST" id="langFr"><input type="hidden" name="referer" value="<?php echo $sf_request->getPathInfo() ?>" /><?php echo image_tag('/images/fr.png', array("onclick" => "javascript:submitForm('langFr')")); ?></form>
-                            <form style="display:inline; margin-left: 5px; cursor: pointer" action="<?php echo url_for('@switch_lang?langage=en') ?>" method="POST" id="langEn"><input type="hidden" name="referer" value="<?php echo $sf_request->getPathInfo() ?>" /><?php echo image_tag('/images/en.png', array("onclick" => "javascript:submitForm('langEn')")); ?></form>
-                            <form style="display:inline; margin-left: 5px; cursor: pointer" action="<?php echo url_for('@switch_lang?langage=de') ?>" method="POST" id="langDe"><input type="hidden" name="referer" value="<?php echo $sf_request->getPathInfo() ?>" /><?php echo image_tag('/images/de.png', array("onclick" => "javascript:submitForm('langDe')")); ?></form>
-                            <form style="display:inline; margin-left: 5px; cursor: pointer" action="<?php echo url_for('@switch_lang?langage=cn') ?>" method="POST" id="langCn"><input type="hidden" name="referer" value="<?php echo $sf_request->getPathInfo() ?>" /><?php echo image_tag('/images/cn.gif', array("onclick" => "javascript:submitForm('langCn')")); ?></form>
-                        </div>
                         <?php if ($sf_user->isAuthenticated()): ?>
-
                             <p class="navbar-text pull-right">
                                 Logged in as <a href="#" class="navbar-link"><?php echo $sf_user->getGuarduser()->getUsername(); ?></a>
                             </p>
                             <ul class="nav">
                                 <li class="active"><a href="<?php echo url_for("homepage"); ?>"><?php echo __("Home"); ?></a></li>
                                 <li><a href="/admin.php"><?php echo __("Admin"); ?></a></li>
-                                <li><a href="http://www.esport-tools.net/ebot"><?php echo __("Help"); ?></a></li>
-                                <li><a href="http://www.esport-tools.net/about"><?php echo __("About"); ?></a></li>
                             </ul>
                         <?php endif; ?>
                     </div>
@@ -122,7 +113,6 @@
 
             <!-- Please, don't remove the brand -->
             <footer class="footer">
-                <p>&copy; <a target="_blank" href="http://www.esport-tools.net/ebot">eSport-tools</a> 2012-2013 - <?php echo (sfConfig::get("app_version") != "") ? sfConfig::get("app_version") : "3.0 RC6"; ?> - By deStrO &amp; Basert - Follow <a target="_blank" href="https://twitter.com/deStrO_BE">deStrO</a> &amp; <a target="_blank" href="https://twitter.com/justbasert">Basert</a> on Twitter - Propulsed by <a target="_blank" href="http://twitter.github.com/bootstrap">Bootstrap</a> & <a target="_blank" href="http://www.symfony-project.com">Symfony</a> - Follow eBot on <a target="_blank" href="https://github.com/deStrO/eBot-CSGO">GitHub</a></p>
             </footer>
         </div>
     </body>
