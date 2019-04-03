@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="title" content="eBot :: Your ingame bot managment for CS:GO" />
-        <title>eBot :: Your ingame bot managment for CS:GO</title>
+        <meta name="title" content="LANudlejning - eBot :: Your ingame bot managment for CS:GO" />
+        <title>LANudlejning - eBot :: Your ingame bot managment for CS:GO</title>
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
         <link rel="stylesheet" type="text/css" media="screen" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="/css/tipsy.css" />

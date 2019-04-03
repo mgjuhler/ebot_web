@@ -39,7 +39,7 @@ $(document).ready(function(){
 </script>
 
 <div class="well">
-    <center><?php echo image_tag("/images/ebot.png"); ?></center>
+    <center><?php echo image_tag("/images/ebot_lanudlejning_logo.png"); ?></center>
 </div>
 
 <div class="row-fluid">
@@ -189,9 +189,7 @@ $(document).ready(function(){
     <div class="span4">
         <h5><?php echo __("Informationen"); ?></h5>
         <div class="well">
-            <p><i class="icon-arrow-right"></i> <?php echo __("La nouvelle version de l'eBot vous permet d'avoir accès à plus de statistiques sur les matchs mais aussi une meilleur gestion des matchs."); ?></p>
-            <p><i class="icon-arrow-right"></i> <?php echo __("Si vous avez un problème avec l'eBot, nous vous invitons à lire l'aide."); ?></p>
-            <p><i class="icon-arrow-right"></i> <?php echo __("Rendez-vous sur"); ?> <a href="http://www.esport-tools.net/">eSport-tools.net</a> <?php echo __("pour plus d'information !"); ?></p>
+            <p><i class="icon-arrow-right"></i> <?php echo __("Denne eBot leveres af LANudlejning ApS"); ?></p>
         </div>
     </div>
 </div>

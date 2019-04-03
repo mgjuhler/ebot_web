@@ -68,7 +68,7 @@
                 <div class="span2">
                     <div class="well sidebar-nav">
                         <div style="text-align:center;">
-                            <img src="/images/ebot.png" style="margin: 25px 15px; width: 200px;">
+                            <img src="/images/ebot_lanudlejning_logo.png" style="margin: 25px 15px; width: 200px;">
                         </div>
                         <ul class="nav nav-list">
                             <li <?php if ($step == "0") echo "class='active'"; ?>><a href="<?php echo $_SERVER['PHP_SELF'] ?>">Start</a></li>

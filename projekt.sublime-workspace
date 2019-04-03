@@ -1,0 +1,201 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Mads/Documents/GitHub/ebot_web",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/web"
+	],
+	"file_history":
+	[
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/backend/modules/main/templates/indexSuccess.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/backend/modules/main/actions/actions.class.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/frontend/modules/main/templates/indexSuccess.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/frontend/modules/main/templates/_menu.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/web/index.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/.gitattributes",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/lib/filter/doctrine/base/BaseMatchsFormFilter.class.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/lib/form/doctrine/TeamsForm.class.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/lib/form/doctrine/MatchsForm.class.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/frontend/modules/credits/templates/indexSuccess.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/backend/config/view.yml",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/backend/config/error/error.html.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/web/installation/index.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/frontend/templates/layout_widget.php",
+		"/C/Users/Mads/Documents/GitHub/ebot_web/apps/backend/modules/matchs/actions/actions.class.php",
+		"/C/Program Files/OpenVPN/doc/INSTALL-win32.txt"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+			"C:\\Users\\Mads\\Documents\\GitHub\\ebot_web"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"news",
+			"eBot-CSGOx",
+			"eBot-CSGOx+",
+			"Credits",
+			"Credits'",
+			"La nouvelle version de l'eBot vou",
+			"::",
+			"ebot.png",
+			"true",
+			" = new sfWidgetFormSelect(array(\"choices\" => $aFlags));",
+			"password"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projekt.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
