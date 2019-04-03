@@ -19,6 +19,8 @@ class TeamsForm extends BaseTeamsForm {
         foreach ($flags as $k => $flag) {
             $aFlags[$k] = $flag;
         }
-        $this->widgetSchema["flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
+        //$this->widgetSchema["flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
+        $this->widgetSchema["flag"]->setDefault("DK");
+        
     }
 }

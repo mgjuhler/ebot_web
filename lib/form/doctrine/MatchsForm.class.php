@@ -39,7 +39,7 @@ class MatchsForm extends BaseMatchsForm {
         $this->widgetSchema["config_knife_round"]->setDefault(true);
         $this->widgetSchema["config_full_score"]->setLabel("Play all Rounds");
         $this->widgetSchema["config_password"]->setLabel("Password");
-        $this->widgetSchema["config_password"]->setDefault($password);
+        $this->widgetSchema["config_password"]->setDefault("lan");
         $this->widgetSchema["map_selection_mode"]->setDefault("normal");
         $this->widgetSchema["rules"]->setDefault(sfConfig::get("app_default_rules"));
 
@@ -61,8 +61,11 @@ class MatchsForm extends BaseMatchsForm {
         foreach ($flags as $k => $flag) {
             $aFlags[$k] = $flag;
         }
-        $this->widgetSchema["team_a_flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
-        $this->widgetSchema["team_b_flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
+        //$this->widgetSchema["team_a_flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
+        //$this->widgetSchema["team_b_flag"] = new sfWidgetFormSelect(array("choices" => $aFlags));
+
+        $this->widgetSchema["team_a_flag"]->setDefault("DK");
+        $this->widgetSchema["team_b_flag"]->setDefault("DK");
 
         $this->widgetSchema["map_selection_mode"]->addOption('choices', array('normal' => 'BO1', 'bo3_modeb' => 'BO3'));
 
