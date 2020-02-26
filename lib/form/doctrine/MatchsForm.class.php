@@ -26,11 +26,11 @@ class MatchsForm extends BaseMatchsForm {
         $this->widgetSchema["startdate"] = new sfWidgetFormInputText(array("default" => date("d.m.Y H:i")), array("id" => "match_startdate", "style" => "width:180px;"));
 
         $query = Doctrine_Core::getTable('Seasons')->createQuery()->where('active = ?', '1');
+        print_r($query);
         $this->widgetSchema['season_id']->setOption('query', $query);
 
         $this->widgetSchema["team_a"]->setLabel("Team A");
         $this->widgetSchema["team_b"]->setLabel("Team B");
-
         $this->widgetSchema["max_round"]->setLabel("Max Rounds (MR)");
 
         $this->widgetSchema["config_ot"]->setLabel("OverTime");
@@ -41,7 +41,9 @@ class MatchsForm extends BaseMatchsForm {
         $this->widgetSchema["config_password"]->setLabel("Password");
         $this->widgetSchema["config_password"]->setDefault("lan");
         $this->widgetSchema["map_selection_mode"]->setDefault("normal");
-        $this->widgetSchema["rules"]->setDefault(sfConfig::get("app_default_rules"));
+        $this->widgetSchema["rules"]->setLabel("Config");
+        $this->widgetSchema["rules"]->setDefault("5on5");
+        //$this->widgetSchema["rules"]->setDefault(sfConfig::get("app_default_rules"));
 
         $this->widgetSchema["overtime_startmoney"]->setLabel("Overtime: Startmoney");
         $this->widgetSchema["overtime_startmoney"]->setDefault(sfConfig::get("app_default_overtime_startmoney"));
