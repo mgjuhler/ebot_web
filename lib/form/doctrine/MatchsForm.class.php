@@ -26,7 +26,9 @@ class MatchsForm extends BaseMatchsForm {
         $this->widgetSchema["startdate"] = new sfWidgetFormInputText(array("default" => date("d.m.Y H:i")), array("id" => "match_startdate", "style" => "width:180px;"));
 
         $query = Doctrine_Core::getTable('Seasons')->createQuery()->where('active = ?', '1');
+        echo '<pre>';
         print_r($query);
+        echo '</pre>';
         $this->widgetSchema['season_id']->setOption('query', $query);
 
         $this->widgetSchema["team_a"]->setLabel("Team AX");
