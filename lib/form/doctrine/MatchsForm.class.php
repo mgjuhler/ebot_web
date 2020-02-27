@@ -30,8 +30,7 @@ class MatchsForm extends BaseMatchsForm {
         //$this->widgetSchema['season_id']->setOption('query', $query);
 
         $this->widgetSchema["season_id"]->setDefault('3');
-
-        $this->widgetSchema["team_a"]->setLabel("Team AX");
+        $this->widgetSchema["team_a"]->setLabel("Team A");
         $this->widgetSchema["team_b"]->setLabel("Team B");
         $this->widgetSchema["max_round"]->setLabel("Max Rounds (MR)");
 
