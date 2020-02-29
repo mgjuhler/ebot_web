@@ -1,6 +1,8 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/11-App
 
+# Se mere her: https://github.com/deStrO/eBot-CSGO-Web/wiki/Add-maps-to-map-pool
+
 # default values
 all:
   <?php require_once(sfConfig::get('sf_root_dir')."/config/app_user.yml") ?>
